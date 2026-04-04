@@ -31,6 +31,17 @@ This dataset shows Foodpanda customer and order details. It includes customer ag
 * open the .ipynb file "LESLIE DOLOT_Capstone Project.ipynb". All libraries are already imported in the code.
   
 ## Results Summary
+* Supervised Classification algorithm was used to answer the problem statement, utilizing three methods: Random Forest, XGBoost and SVM. From these three, SVM has the highest F1 score. From this tool, the three potential influencers of order cancellations are the order timing (week in a year), quantity, and city of Karachi. Using bias testing methods, it was found that some features are underrepresented and that the current dataset is geographically skewed. With this, it is strongly recommended to collect more data on underrepresented cities.
+* To strengthen the predictive power of the SVM model, there should be more data collected answering the following areas:
+a. app’s indicated delivery time
+b. time between the placement of order and the delivery (or cancellation)
+c. driver assignment time (how long for the order to be assigned to a driver)
+d. duration of time for the restaurant to fulfill the order
+e. reason for order cancellation (availability, waiting time, rush hour, etc.)
+f. types of cancellations (customer cancels due to change of mind, restaurant cancels due to out of stock, system cancels, or rider cancels)
+g. other external factors (weather, road works, holidays, etc.)
+
+The rest of the details can be seen in the atached files:
 * Business presentation is named as "LeslieDOLOT_CAPSTONE - BusinessDeck.pdf".
 * Technical presentation is named as "LeslieDolot_JupyterCapstone TechDeck.pdf"
   
